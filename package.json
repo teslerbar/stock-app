@@ -1,0 +1,17 @@
+{
+  "name": "example-create-react-app-express",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "cd server && node app.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn client\" \"yarn server\"",
+    "start": "npm install; pushd client; npm install; popd; pushd server; npm install; popd; yarn dev"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0"
+  }
+}

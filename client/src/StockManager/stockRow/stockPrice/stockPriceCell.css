@@ -1,0 +1,24 @@
+.Status {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.Price {
+    min-width: 55px;
+    margin-right: 5px;
+}
+
+.Up {
+    color: rgb(31, 203, 35);
+}
+
+.Down {
+    color: rgb(252, 13, 27);
+}
+
+.StatusIcon {
+    width: 16px;
+    height: 16px;
+}

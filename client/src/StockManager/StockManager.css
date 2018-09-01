@@ -1,0 +1,25 @@
+.StockManager {
+    width: 100%;
+    max-width: 550px;
+    min-width: 450px;
+    padding: 20px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.Table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%
+}
+
+td, th {
+    border: none;
+    text-align: left;
+    padding: 10px;
+}
+
+.TableHeader {
+    border-bottom: 2px solid lightgray;
+    color: #000;
+}
