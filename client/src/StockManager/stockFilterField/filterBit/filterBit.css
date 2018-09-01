@@ -4,10 +4,10 @@
     align-items: center;
     width: auto;
     height: 100%;
-    min-width: 50px;
+    min-width: 3.125rem;
     margin-right: 3px;
     background-color:#e0e0e0;
-    padding: 11px;
+    padding: 0.68rem;
     box-sizing: border-box;
     color: rgba(0, 0, 0, 0.87);
     border: none;
@@ -21,14 +21,14 @@
 
 
 .Label {
-    font-size: 16px;
+    font-size: 1rem;
     color: #000000;
-    margin: 0 7px 0 0;
+    margin: 0 0.4rem 0 0;
 }
 
 
 .RemoveIcon {
-    width: 15px;
+    width: 1rem;
     object-fit: contain;
     cursor: pointer;
 }
